@@ -15,6 +15,8 @@ Als ich mir die Projektseite von [asksinpp.de](https://asksinpp.de/Projekte/) no
 Da stellte sich mir die Frage – warum das alles nicht vereinen, wenn es sowieso fast immer benötigt wird. Damit könnte man auch schneller Prototypen auf Lochraster aufbauen und das ganze wäre Anfänger-/Lötlegastheniker-freundlich.
 Ein Grund dafür, dass dies noch nie jemand gemacht hat ist wohl, dass man sowohl den Arduino Pro Mini als auch das CC1101 Modul bei Import aus China zu unschlagbaren Preisen bekommt.
 
+![Full_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Full_Assy_Iso.jpg)
+
 ## Was habe ich gemacht:
 
 Ich habe mir als Basis die Schaltung des Arduino Pro Mini (von Sparkfun) genommen.
