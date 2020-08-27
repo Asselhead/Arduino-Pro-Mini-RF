@@ -1,6 +1,6 @@
 # Arduino-Pro-Mini-RF
 
-Hallo Freunde der drahtlosen Hausautomation,
+### Hallo Freunde der drahtlosen Hausautomation,
 
 nachdem ich täglich mit Leiterplatten Schaltungs- und Layout-Entwicklung zu tun habe und dabei auch immer den Bestückungs- und Lötprozess begleite, hat mich interessiert, welches Ergebnis JLCPCB bei der Bestückung liefert.
 Nun habe ich also überlegt, mit welcher Schaltung/Bestückung man den SMT Service von JLCPCB einmal testen könnte.
