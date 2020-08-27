@@ -46,13 +46,13 @@ Die A/D-Wandler Eingänge A6 und A7 mussten leider entfallen, da der Platz nicht
 
 Die Leiterplatte hat genau wie das Original die Abmessungen 17,78 x 33,02mm (bzw. 0,7“x1,3“).
 
-Leider muss man bei der Bestückung durch JLCPCB einige Einschränkungen hinnehmen.
+Leider muss man bei der Bestückung durch JLCPCB einige Einschränkungen hinnehmen:
 
-1.	Es wird kein passender Keramik Resonator mit 8 MHz angeboten – dieser muss derzeit von Hand nachbestückt werden, sofern man nicht mit der Genauigkeit des internen Oszillators auskommt.
+1.	Es wird kein passender Keramik Resonator mit 8 MHz angeboten – dieser muss derzeit von Hand nachbestückt werden, sofern man nicht mit der Genauigkeit des internen Oszillators auskommt. Dazu wurden die Lötpads geringfügig vergrößert, damit es von Hand etwas leichter fällt.
 2.	Es wird kein kleiner Taster zur Bestückung angeboten – dieser muss derzeit ebenfalls von Hand nachbestückt werden.
-3.	Für die beste Performance des CC1101 Chip werden Bauteile benötigt, die entweder nicht verfügbar sind, oder als „Extended Part“ eine zusätzlich Einrichtungsgebühr zur Folge haben. (Dies ist für unsere Zwecke aber nicht unbedingt ein großer Nachteil)
+3.	Für die beste Performance des CC1101 Chip werden Kondensatoren und Induktivitäten benötigt, die entweder nicht verfügbar sind, oder als „Extended Part“ eine zusätzlich Einrichtungsgebühr zur Folge haben. (Dies ist für unsere Zwecke aber nicht unbedingt ein großer Nachteil, denn die CC1101 Module verwenden ähnliche Bauteile)
 
 
 Da in vielen Fällen ein Batteriebetrieb gewünscht ist, habe ich den Spannungsregler und dessen Eingangs-Kondensator nicht bestücken lassen.
 Wer die Schaltung z.B. an 12V betreiben möchte, muss einen Kondensator (Bauform 0603 – mindestens 16V Type) und den Spannungsregler (SOT-23) nachträglich bestücken.
-Wenn sich hier herausstellt, dass die Mehrheit die Version mit Spannungsregler benötigt, kann dieser (+ Kondensator) automatisch mit bestückt werden.
+Wenn sich hier herausstellt, dass die Mehrheit die Version mit bestücktem Spannungsregler benötigt, kann dieser (& Kondensator) automatisch mit bestückt werden.
