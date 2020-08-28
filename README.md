@@ -145,7 +145,7 @@ Dem Arduino-Pro-Mini-RF habe ich dann auf einem Mini-Steckbrett noch schnell ein
 
 Funktioniert prima.
 
-Dann durchs Törchen ins Feld - so ca. 40m Luftlinie von der CCU2 entfernt - Empfang -> kein Problem.
+Dann durchs Törchen ins Feld - so ca. 40m Luftlinie von der CCU2 entfernt - **Empfang -> kein Problem**.
 
 Damit wäre schon einmal klar - wenn man sich einigermaßen an die App-Notes von TI hält, funktioniert der CC1101 immer.
 
@@ -153,12 +153,12 @@ Damit wäre schon einmal klar - wenn man sich einigermaßen an die App-Notes von
 
 Zu guter Letzt wollte ich noch wissen, wie viel Strom der APM-RF verbraucht.
 
-Ein LDO ist ja schon mal nicht drauf, die Power LED fehlt ebenfalls, damit müsste der Strom von vorne herein recht niedrig ausfallen.
+Ein LDO ist ja schon mal **nicht drauf**, die Power LED fehlt ebenfalls, damit müsste der Strom von vorne herein recht niedrig ausfallen.
 
 Mit dem "SleepTest" von Tom Major habe ich den Strom überprüft - als "User-LED" habe ich im Sketch die ASKSIN Status LED angegeben.
 
 ![Active.JPG](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Active.JPG)
-Mit ca. 5mA ein guter Wert mit einem recht niederohmigen LED Vorwiderstand.
+Mit ca. 5mA ein guter Wert trotz eines recht niederohmigen LED Vorwiderstand.
 
 Anschließend im DeepSleep getestet:
 ![DeepSleep.JPG](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/DeepSleep.JPG)
