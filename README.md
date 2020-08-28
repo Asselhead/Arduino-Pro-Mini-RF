@@ -91,7 +91,39 @@ Wird die Schaltung nicht mit 3V an Batterien betrieben, sondern an einer höhere
 
 Nachdem ich die ersten Muster bekommen habe und die Antenne angelötet habe, habe ich den [MCUDude MiniCore Bootloader](https://github.com/MCUdude/MiniCore) per ISP Programmer aufgespielt.
 Die Einstellungen habe ich folgendermaßen gewählt:
+![Bootloader.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Bootloader.png)
 
-Danach habe ich per FTDI USB-Seriell Adapter den genialen FreqTest Sketch von TomMajor aufgespielt.
+Danach habe ich per FTDI USB-Seriell Adapter den genialen [FreqTest](https://github.com/pa-pa/AskSinPP/blob/master/examples/FreqTest/FreqTest.ino) Sketch aufgespielt.
 Das Ergebnis sieht recht vielversprechend aus:
+```
+AskSin++ V4.1.6 (Aug 28 2020 13:03:21)
+CC init1
+CC Version: 14
+ - ready
+Start searching ...
+Freq 0x21656A 868.300 MHz: 345682.  1 / -57dBm
+Search for upper bound
+Freq 0x21657A 868.306 MHz: 00AC01.  1 / -63dBm
+Freq 0x21658A 868.313 MHz: B28FEB.  1 / -54dBm
+Freq 0x21659A 868.319 MHz: 69677B.  1 / -50dBm
+Freq 0x2165AA 868.325 MHz: B28FEB.  1 / -54dBm
+Freq 0x2165BA 868.332 MHz: 69677B.  1 / -51dBm
+Freq 0x2165CA 868.338 MHz: 69677B.  1 / -52dBm
+Freq 0x2165DA 868.344 MHz: 003F00.  1 / -79dBm
+Freq 0x2165EA 868.351 MHz:   0
+Search for lower bound
+Freq 0x21655A 868.294 MHz: 6185C2.  1 / -77dBm
+Freq 0x21654A 868.287 MHz: B28FEB.  1 / -52dBm
+Freq 0x21653A 868.281 MHz: 69677B.  1 / -54dBm
+Freq 0x21652A 868.274 MHz: B28FEB.  1 / -52dBm
+Freq 0x21651A 868.268 MHz: 69677B.  1 / -50dBm
+Freq 0x21650A 868.262 MHz: 00AC01.  1 / -65dBm
+Freq 0x2164FA 868.255 MHz: 35CD83.  1 / -52dBm
+Freq 0x2164EA 868.249 MHz: B28FEB.  1 / -52dBm
+Freq 0x2164DA 868.243 MHz:   0
+
+Done: 0x2164EA - 0x2165DA
+Calculated Freq: 0x216562 868.297 MHz
+Store into config area: 6562...stored!
+```
 
