@@ -52,6 +52,7 @@ ersetzt. Dieser hat ein sehr geringes IQ (2µA), eine Eingangsspannung bis 16V, 
 4.	Reset Baustein (Open Drain) als Babbling Idiot Protection (derzeit 2,32V – als Bestückungsoption)
 5.	SHT31 Temp./Humi Sensor – Achtung! Auf der BOT Seite - nur als Option für versierte Selbstlöter.
 
+### Ist er kompatibel?
 
 Die Belegung der beiden Stiftleisten links und rechts ist identisch zum Arduino Pro Mini Standard, ebenso die Position von A4(SDA) und A5(SCL) für den I2C Bus Anschluss.
 
@@ -72,3 +73,10 @@ Wenn sich hier herausstellt, dass die Mehrheit die Version mit bestücktem Spann
 
 ## What you get!
 
+Dieser Screenshot zeigt, was alles automatisch bestückt werden kann:
+
+![Part_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Part_Assy.jpg)
+
+## What you don´t get!
+
+Es fehlen, wie bereits erwähnt, der LDO mit Eingangskondensator, der Reset Baustein, der Keramik Resonator und der Taster.
