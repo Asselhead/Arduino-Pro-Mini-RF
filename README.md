@@ -20,7 +20,7 @@ Damit könnte man schneller Prototypen auf Lochraster aufbauen und es wäre Anf�
 Ich vermute der geringe Preis von Arduino Pro Mini und CC1101 Modul bei Import aus China stellt die Wirtschaftlichkeit meiner Kobination in Frage.
 Sobald man aber in Deutschland kauft, ist eine All-in-One Leiterplatte durchaus konkurrenzfähig.
 
-#### Was ist daraus geworden? Der Arduino-Pro-Mini-RF
+#### Was ist daraus geworden? Der Arduino-Pro-Mini-RF!
 
 ![Full_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Full_Assy_Iso.jpg)
 
