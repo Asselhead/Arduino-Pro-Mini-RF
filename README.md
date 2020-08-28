@@ -3,7 +3,7 @@
 ### Hallo Freunde der drahtlosen Hausautomation,
 
 da ich fast täglich mit Leiterplatten Schaltungs- und Layout-Entwicklung zu tun habe und dabei auch immer ein wenig den Bestückungs- und Lötprozess begleite, hat mich interessiert, welches Ergebnis JLCPCB bei der Bestückung liefert.
-Nun habe ich also überlegt, mit welcher Schaltung/Bestückung man den SMT Service von JLCPCB einmal testen könnte.
+Nun habe ich überlegt, mit welcher Schaltung/Bestückung man den SMT Service von JLCPCB einmal testen könnte.
 
 Als ich mir die Projektseite von [asksinpp.de](https://asksinpp.de/Projekte/) noch einmal angeschaut habe, fiel mir auf, dass ungefähr die Hälfte aller Projekte folgende Komponenten enthält:
 
@@ -14,7 +14,7 @@ Als ich mir die Projektseite von [asksinpp.de](https://asksinpp.de/Projekte/) no
 
 #### Da stellte sich mir die Frage – warum das alles nicht vereinen, wenn es sowieso fast immer benötigt wird?
 
-Damit könnte man schneller Prototypen auf Lochraster aufbauen und es wäre Anfängerfreundlich.
+Damit könnte man schneller Prototypen auf Lochraster aufbauen und es wäre eine Anfängerfreundliche Lösung.
 
 ###### Warum ist auf die Idee noch keiner gekommen?
 Ich vermute der geringe Preis von Arduino Pro Mini und CC1101 Modul bei Import aus China stellt die Wirtschaftlichkeit meiner Kobination in Frage.
@@ -69,3 +69,6 @@ Die Leiterplatte hat genau wie das Original die Abmessungen 17,78 x 33,02mm (bzw
 Da in vielen Fällen ein Batteriebetrieb gewünscht ist, habe ich den Spannungsregler und dessen Eingangs-Kondensator nicht bestücken lassen.
 Wer die Schaltung z.B. an 12V betreiben möchte, muss einen Kondensator (Bauform 0603 – mindestens 16V Type) und den Spannungsregler (SOT-23) nachträglich bestücken.
 Wenn sich hier herausstellt, dass die Mehrheit die Version mit bestücktem Spannungsregler benötigt, kann dieser (& Kondensator) automatisch mit bestückt werden.
+
+## What you get!
+
