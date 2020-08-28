@@ -79,4 +79,19 @@ Dieser Screenshot zeigt, was alles automatisch bestückt werden kann:
 
 ## What you don´t get!
 
-Es fehlen, wie bereits erwähnt, der LDO mit Eingangskondensator, der Reset Baustein, der Keramik Resonator und der Taster.
+Es fehlen, wie bereits erwähnt, der LDO-Spannungsregler mit Eingangskondensator, der Reset Baustein, der Keramik Resonator und der Taster.
+
+Den Config Taster zu haben ist schon sehr komfortabel, er lässt sich auch recht leicht von Hand Bestücken. Auch der Keramik Resonator könnte für Präzisions-Zwecke von dem ein oder anderen benötigt werden. Dessen Lötpads sind etwas größer ausgeführt, damit er leichter verlötet werden kann.
+
+Der Reset Baustein (IC4) ist eine Option mit der ggf. ein Babbling Idiot verhindert werden kann.
+
+Wird die Schaltung nicht mit 3V an Batterien betrieben, sondern an einer höheren Spannung (bis ca. 14,5V), dann muss der LDO Spannungsregler (IC2) und dessen Eingangskondensator (10µF/16V/0603) bestückt werden.
+
+## Funktioniert das überhaupt?
+
+Nachdem ich die ersten Muster bekommen habe und die Antenne angelötet habe, habe ich den [MCUDude MiniCore Bootloader](https://github.com/MCUdude/MiniCore) per ISP Programmer aufgespielt.
+Die Einstellungen habe ich folgendermaßen gewählt:
+
+Danach habe ich per FTDI USB-Seriell Adapter den genialen FreqTest Sketch von TomMajor aufgespielt.
+Das Ergebnis sieht recht vielversprechend aus:
+
