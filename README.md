@@ -12,7 +12,9 @@ Als ich mir die Projektseite von [asksinpp.de](https://asksinpp.de/Projekte/) no
 3.	Config-Taster
 4.	Status LED
 
-Da stellte sich mir die Frage – warum das alles nicht vereinen, wenn es sowieso fast immer benötigt wird. Damit könnte man auch schneller Prototypen auf Lochraster aufbauen und das ganze wäre Anfänger-/Lötlegastheniker-freundlich.
+#### Da stellte sich mir die Frage – warum das alles nicht vereinen, wenn es sowieso fast immer benötigt wird?
+
+Damit könnte man auch schneller Prototypen auf Lochraster aufbauen und das ganze wäre Anfänger-/Lötlegastheniker-freundlich.
 Ein Grund dafür, dass dies noch nie jemand gemacht hat ist wohl, dass man sowohl den Arduino Pro Mini als auch das CC1101 Modul bei Import aus China zu unschlagbaren Preisen bekommt.
 
 ![Full_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Full_Assy_Iso.jpg)
@@ -31,7 +33,7 @@ Hier habe ich zunächst den Mikrocontroller ATMEGA328P-AU (TQFP-32) geändert in
 
 ### Folgendes wurde ausgetauscht:
 
-1.	3,3V Spannungsregler MIC5205 wurde durch Type MCP1703T-3302E/CB
+-	3,3V Spannungsregler MIC5205 wurde durch Type MCP1703T-3302E/CB
 ersetzt. Dieser hat ein sehr geringes IQ (2µA), eine Eingangsspannung bis 16V, kann (max.) 250mA und hat ein kleines SOT-23A Gehäuse. (Wird nur bei Bedarf bestückt)
 
 ### Folgendes wurde hinzugefügt:
@@ -49,7 +51,7 @@ Die A/D-Wandler Eingänge A6 und A7 mussten leider entfallen, da der Platz nicht
 
 Die Leiterplatte hat genau wie das Original die Abmessungen 17,78 x 33,02mm (bzw. 0,7“x1,3“).
 
-Leider muss man bei der Bestückung durch JLCPCB einige Einschränkungen hinnehmen:
+#### Leider muss man bei der Bestückung durch JLCPCB einige Einschränkungen hinnehmen:
 
 1.	Es wird kein passender Keramik Resonator mit 8 MHz angeboten – dieser muss derzeit von Hand nachbestückt werden, sofern man nicht mit der Genauigkeit des internen Oszillators auskommt. Dazu wurden die Lötpads geringfügig vergrößert, damit es von Hand etwas leichter fällt.
 2.	Es wird kein kleiner Taster zur Bestückung angeboten – dieser muss derzeit ebenfalls von Hand nachbestückt werden.
