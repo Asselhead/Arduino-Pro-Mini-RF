@@ -2,7 +2,7 @@
 
 ### Hallo Freunde der drahtlosen Hausautomation,
 
-nachdem ich täglich mit Leiterplatten Schaltungs- und Layout-Entwicklung zu tun habe und dabei auch immer den Bestückungs- und Lötprozess begleite, hat mich interessiert, welches Ergebnis JLCPCB bei der Bestückung liefert.
+da ich fast täglich mit Leiterplatten Schaltungs- und Layout-Entwicklung zu tun habe und dabei auch immer ein wenig den Bestückungs- und Lötprozess begleite, hat mich interessiert, welches Ergebnis JLCPCB bei der Bestückung liefert.
 Nun habe ich also überlegt, mit welcher Schaltung/Bestückung man den SMT Service von JLCPCB einmal testen könnte.
 
 Als ich mir die Projektseite von [asksinpp.de](https://asksinpp.de/Projekte/) noch einmal angeschaut habe, fiel mir auf, dass ungefähr die Hälfte aller Projekte folgende Komponenten enthält:
@@ -63,7 +63,7 @@ Die Leiterplatte hat genau wie das Original die Abmessungen 17,78 x 33,02mm (bzw
 
 1.	Es wird kein passender Keramik Resonator mit 8 MHz angeboten – dieser muss derzeit von Hand nachbestückt werden, sofern man nicht mit der Genauigkeit des internen Oszillators auskommt. Dazu wurden die Lötpads geringfügig vergrößert, damit es von Hand etwas leichter fällt.
 2.	Es wird kein kleiner Taster zur Bestückung angeboten – dieser muss derzeit ebenfalls von Hand nachbestückt werden.
-3.	Für die beste Performance des CC1101 Chip werden Kondensatoren und Induktivitäten benötigt, die entweder nicht verfügbar sind, oder als „Extended Part“ eine zusätzlich Einrichtungsgebühr zur Folge haben. (Dies ist für unsere Zwecke aber nicht unbedingt ein großer Nachteil, denn die CC1101 Module verwenden ähnliche Bauteile)
+3.	Für die beste Performance des CC1101 Chip werden Kondensatoren und Induktivitäten benötigt, die entweder nicht verfügbar sind, oder als „Extended Part“ eine zusätzlich Einrichtungsgebühr zur Folge haben. (Dies ist für unsere Zwecke aber kein großer Nachteil, denn die CC1101 Module verwenden ähnliche Bauteile und erste Tests mit der Leiterplatte haben gezeigt, dass die Reichweite des Arduino-Pro-Mini-RF hervorragend ist.)
 
 
 Da in vielen Fällen ein Batteriebetrieb gewünscht ist, habe ich den Spannungsregler und dessen Eingangs-Kondensator nicht bestücken lassen.
