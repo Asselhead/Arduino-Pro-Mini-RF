@@ -17,24 +17,24 @@ Ein Grund dafür, dass dies noch nie jemand gemacht hat ist wohl, dass man sowoh
 
 ![Full_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Full_Assy_Iso.jpg)
 
-## Was habe ich gemacht:
+## Was habe ich gemacht?
 
 Ich habe mir als Basis die Schaltung des Arduino Pro Mini (von Sparkfun) genommen.
 Hier habe ich zunächst den Mikrocontroller ATMEGA328P-AU (TQFP-32) geändert in den ATMEGA328P-MU (HVQFN-32), da dieser Funktionsgleich, aber auf Grund seines Gehäuses deutlich kleiner ist.
 
-## Aus der Arduino Pro Mini Schaltung habe ich folgendes entfernt:
+### Aus der Arduino Pro Mini Schaltung habe ich folgendes entfernt:
 
 1.	Reset Taster
 2.	User LED
 3.	Power LED
 4.	Anschlüsse für A/D-Wandler Eingänge A6 und A7 (aus Platzgründen)
 
-## Folgendes wurde ausgetauscht:
+### Folgendes wurde ausgetauscht:
 
 1.	3,3V Spannungsregler MIC5205 wurde durch Type MCP1703T-3302E/CB
 ersetzt. Dieser hat ein sehr geringes IQ (2µA), eine Eingangsspannung bis 16V, kann (max.) 250mA und hat ein kleines SOT-23A Gehäuse. (Wird nur bei Bedarf bestückt)
 
-## Folgendes wurde hinzugefügt:
+### Folgendes wurde hinzugefügt:
 
 1.	Texas Instruments CC1101RGPR mit RF-Frontend
 2.	Status LED (an D4)
