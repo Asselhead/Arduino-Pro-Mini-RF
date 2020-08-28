@@ -81,7 +81,10 @@ Dieser Screenshot zeigt, was alles automatisch bestückt werden kann:
 
 Es fehlen:
 
-- Der LDO-Spannungsregler mit Eingangskondensator, der Reset Baustein, der Keramik Resonator und der Taster.
+- Der LDO-Spannungsregler mit Eingangskondensator
+- Der Reset Baustein
+- Der Keramik Resonator und 
+- Der Taster
 
 Den Config Taster zu haben ist schon sehr komfortabel, er lässt sich auch recht leicht von Hand bestücken. Auch der Keramik Resonator könnte für Präzisions-Zwecke von dem ein oder anderen benötigt werden. Dessen Lötpads sind etwas größer ausgeführt, damit er leichter verlötet werden kann.
 
