@@ -177,4 +177,4 @@ Wer sich für die Schaltung des Ardunio-Pro-Mini-RF interessiert, kann sich dies
 Als kleine Übersicht habe ich auch noch eine [Pinbelegung](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/APM_RF_PinOut.pdf) erstellt.
 ![APM_RF_PinOut.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/APM_RF_PinOut.jpg)
 
-Wer Interesse an dem Projekt hat, kann mich gerne anschreiben (per PN im Homematik Forum).
+Wer Interesse an dem Projekt hat, kann mich gerne anschreiben (per PN im Homematic Forum).
