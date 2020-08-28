@@ -24,7 +24,7 @@ Sobald man aber in Deutschland kauft, ist eine All-in-One Leiterplatte durchaus 
 
 ![Full_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Full_Assy_Iso.jpg)
 
-Alle bisherigen Leiterplatten die den Arduino Pro Mini verwenden, könnten auch mit der RF Version weiter betrieben werden, benötigen aber kein zusätzliches CC1101 Modul.
+Alle bisherigen ASKSINN++ Leiterplatten die den Arduino Pro Mini verwenden, könnten auch mit der RF Version weiter betrieben werden, benötigen aber kein zusätzliches CC1101 Modul.
 Zukünftige "Baseboards" könnten kleiner ausfallen, da der Platz für das CC1101 Modul entfällt.
 
 ## Was habe ich gemacht?
