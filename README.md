@@ -60,6 +60,11 @@ Die A/D-Wandler Eingänge A6 und A7 mussten leider entfallen, da der Platz nicht
 
 Die Leiterplatte hat genau wie das Original die Abmessungen 17,78 x 33,02mm (bzw. 0,7“x1,3“).
 
+In der Abbildung unten kann man erkennen, dass die Arduino-Pro-Mini-RF Leiterplatte geringfügig breiter ist, als die des Standard Pro-Mini.
+Das liegt daran, dass ich für die ersten Muster kein Panel erstellt habe und deshalb die JLCPCB mindestgröße der Leiterplatte 2cm beträgt.
+Bei einer größeren Bestellung wären die Maße der Leiterplatten exakt gleich.
+![ProMini_ProMiniRF.JPG](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/ProMini_ProMiniRF.JPG)
+
 #### Leider muss man bei der Bestückung durch JLCPCB einige Einschränkungen hinnehmen:
 
 1.	Es wird kein passender Keramik Resonator mit 8 MHz angeboten – dieser muss derzeit von Hand nachbestückt werden, sofern man nicht mit der Genauigkeit des internen Oszillators auskommt. Dazu wurden die Lötpads geringfügig vergrößert, damit es von Hand etwas leichter fällt.
@@ -166,3 +171,7 @@ Da ich den Faktor "LED" einmal ausklammern wollte, habe ich diese im Sketch ausk
 # Schaltung
 
 Wer sich für die Schaltung des Ardunio-Pro-Mini-RF interessiert, kann sich diese [hier](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/Arduino-Pro-Mini-RF.pdf) anschauen.
+
+# Pinbelegung
+
+Als kleine Übersicht habe ich auch noch eine [Pinbelegung](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/APM_RF_PinOut.pdf) erstellt.
