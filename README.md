@@ -79,9 +79,11 @@ Dieser Screenshot zeigt, was alles automatisch bestückt werden kann:
 
 ## What you don´t get!
 
-Es fehlen, wie bereits erwähnt, der LDO-Spannungsregler mit Eingangskondensator, der Reset Baustein, der Keramik Resonator und der Taster.
+Es fehlen:
 
-Den Config Taster zu haben ist schon sehr komfortabel, er lässt sich auch recht leicht von Hand Bestücken. Auch der Keramik Resonator könnte für Präzisions-Zwecke von dem ein oder anderen benötigt werden. Dessen Lötpads sind etwas größer ausgeführt, damit er leichter verlötet werden kann.
+- Der LDO-Spannungsregler mit Eingangskondensator, der Reset Baustein, der Keramik Resonator und der Taster.
+
+Den Config Taster zu haben ist schon sehr komfortabel, er lässt sich auch recht leicht von Hand bestücken. Auch der Keramik Resonator könnte für Präzisions-Zwecke von dem ein oder anderen benötigt werden. Dessen Lötpads sind etwas größer ausgeführt, damit er leichter verlötet werden kann.
 
 Der Reset Baustein (IC4) ist eine Option mit der ggf. ein Babbling Idiot verhindert werden kann.
 
