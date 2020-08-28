@@ -161,3 +161,8 @@ Auch hier kann man mit 4,4µA zufrieden sein.
 
 Da ich den Faktor "LED" einmal ausklammern wollte, habe ich diese im Sketch auskommentiert
 ![Active_no_LED.JPG](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Active_no_LED.JPG)
+3,1mA entspricht ungefähr dem, was Tom Major bei seinen Untersuchungen ebenfalls gemessen hat.
+
+# Schaltung
+
+Wer sich für die Schaltung des Ardunio-Pro-Mini-RF interessiert, kann sich diese [hier](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/Arduino-Pro-Mini-RF.pdf) anschauen.
