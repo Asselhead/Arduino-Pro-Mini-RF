@@ -14,11 +14,11 @@ Als ich mir die Projektseite von [asksinpp.de](https://asksinpp.de/Projekte/) no
 
 #### Da stellte sich mir die Frage – warum das alles nicht vereinen, wenn es sowieso fast immer benötigt wird?
 
-Damit könnte man schneller Prototypen auf Lochraster aufbauen und es wäre eine Anfängerfreundliche Lösung.
+Damit könnte man schneller Prototypen auf Lochraster aufbauen und es wäre eine anfängerfreundliche Lösung.
 
 ###### Warum ist auf die Idee noch keiner gekommen?
-Ich vermute der geringe Preis von Arduino Pro Mini und CC1101 Modul bei Import aus China stellt die Wirtschaftlichkeit meiner Kobination in Frage.
-Sobald man aber in Deutschland kauft, ist eine All-in-One Leiterplatte durchaus konkurrenzfähig.
+Ich vermute, der geringe Preis von Arduino Pro Mini und CC1101 Modul stellt bei Import aus China, die Wirtschaftlichkeit meiner Kombination in Frage.
+Sobald man aber in Deutschland kauft, ist eine "All-in-One" Leiterplatte durchaus konkurrenzfähig.
 
 #### Was ist daraus geworden? Der Arduino-Pro-Mini-RF!
 
@@ -29,8 +29,8 @@ Zukünftige "Baseboards" könnten kleiner ausfallen, da der Platz für das CC110
 
 ## Was habe ich gemacht?
 
-Ich habe mir als Basis die Schaltung des Arduino Pro Mini (von Sparkfun) genommen.
-Hier habe ich zunächst den Mikrocontroller ATMEGA328P-AU (TQFP-32) geändert in den ATMEGA328P-MU (HVQFN-32), da dieser Funktionsgleich, aber auf Grund seines Gehäuses deutlich kleiner ist.
+Ich habe als Basis die Schaltung des Arduino Pro Mini (von Sparkfun) genommen.
+Hier habe ich zunächst den Mikrocontroller ATMEGA328P-AU (TQFP-32) in den ATMEGA328P-MU (HVQFN-32) geändert, da dieser funktionsgleich, aber aufgrund seines Gehäuses deutlich kleiner ist.
 
 ### Aus der Arduino Pro Mini Schaltung habe ich folgendes entfernt:
 
