@@ -90,7 +90,7 @@ Den Config Taster zu haben ist schon sehr komfortabel, er lässt sich auch recht
 
 Der Reset Baustein (IC4) ist eine Option mit der ggf. ein Babbling Idiot verhindert werden kann.
 
-Wird die Schaltung nicht mit 3V an Batterien betrieben, sondern an einer höheren Spannung (bis ca. 14,5V), dann muss der LDO Spannungsregler (IC2) und dessen Eingangskondensator (10µF/16V/0603) bestückt werden.
+Wird die Schaltung nicht mit 3V an Batterien betrieben, sondern an einer höheren Spannung (bis ca. 14,5V), dann muss der LDO Spannungsregler (IC2) und dessen Eingangskondensator (C15 - 10µF/16V/0603) bestückt werden.
 
 ## Funktioniert das überhaupt?
 
@@ -134,6 +134,10 @@ Store into config area: 6562...stored!
 ```
 
 Als "echten" Sketch habe ich dann den [HM-RC-P1](https://github.com/pa-pa/AskSinPP/blob/master/examples/HM-RC-P1/HM-RC-P1.ino) vom 1-Tasten Paniksender programmiert.
-Dem Arduino-Pro-Mini-RF habe ich dann auf einem Mini-Steckbrett noch schnell eine Taste spendiert, anschließend in meiner (immer noch) CCU2 ein Programm Taste->Terrassenbeleuchtung angelegt und mit dem "Aufbau" in den Garten gegangen. Funktioniert Prima. Dann durchs Törchen ins Feld - so ca. 40m Luftlinie von der CCU2 entfernt - Empfang -> kein Problem.
+Dem Arduino-Pro-Mini-RF habe ich dann auf einem Mini-Steckbrett noch schnell eine Taste spendiert, anschließend in meiner (immer noch) CCU2 ein Programm Taste->Terrassenbeleuchtung angelegt und mit dem "Aufbau" in den Garten gegangen.
+
+Funktioniert Prima.
+
+Dann durchs Törchen ins Feld - so ca. 40m Luftlinie von der CCU2 entfernt - Empfang -> kein Problem.
 
 Damit wäre schon einmal klar - wenn man sich einigermaßen an die App-Notes von TI hält, funktioniert der CC1101 immer.
