@@ -14,10 +14,18 @@ Als ich mir die Projektseite von [asksinpp.de](https://asksinpp.de/Projekte/) no
 
 #### Da stellte sich mir die Frage – warum das alles nicht vereinen, wenn es sowieso fast immer benötigt wird?
 
-Damit könnte man auch schneller Prototypen auf Lochraster aufbauen und das ganze wäre Anfänger-/Lötlegastheniker-freundlich.
-Ein Grund dafür, dass dies noch nie jemand gemacht hat ist wohl, dass man sowohl den Arduino Pro Mini als auch das CC1101 Modul bei Import aus China zu unschlagbaren Preisen bekommt.
+Damit könnte man schneller Prototypen auf Lochraster aufbauen und es wäre Anfängerfreundlich.
+
+###### Warum ist auf die Idee noch keiner gekommen?
+Ich vermute der geringe Preis von Arduino Pro Mini und CC1101 Modul bei Import aus China stellt die Wirtschaftlichkeit meiner Kobination in Frage.
+Sobald man aber in Deutschland kauft, ist eine All-in-One Leiterplatte durchaus konkurrenzfähig.
+
+#### Was ist daraus geworden? Der Arduino-Pro-Mini-RF
 
 ![Full_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Full_Assy_Iso.jpg)
+
+Alle bisherigen Leiterplatten die den Arduino Pro Mini verwenden, könnten auch mit der RF Version weiter betrieben werden, benötigen aber kein zusätzliches CC1101 Modul.
+Zukünftige "Baseboards" könnten kleiner ausfallen, da der Platz für das CC1101 Modul entfällt.
 
 ## Was habe ich gemacht?
 
