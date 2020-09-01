@@ -1,4 +1,4 @@
-# Arduino-Pro-Mini-RF
+# Arduino-Pro-Mini-RF (APM-RF)
 
 ### Hallo Freunde der drahtlosen Hausautomation,
 
