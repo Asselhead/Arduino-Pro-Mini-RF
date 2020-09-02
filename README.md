@@ -168,6 +168,35 @@ Da ich den Faktor "LED" einmal ausklammern wollte, habe ich diese im Sketch ausk
 ![Active_no_LED.JPG](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Active_no_LED.JPG)
 3,1mA entspricht ungefähr dem, was Tom Major bei seinen Untersuchungen ebenfalls gemessen hat.
 
+## Der interne 8MHz Takt
+
+Leider sind die ATMEGAs ja dafür bekannt, dass die Frequenzabweichung des internen 8MHz Oszillator nicht gerade optimal ist.
+Hier ein Auszug aus dem Datenblatt:
+
+![Oszi.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Oszi.png)
+
+Ich wollte wissen, wie es sich genau für den ATMEGA328P-MU verhält und habe das CLKOUT Fusebit gesetzt, den APM-RF mit 3V versorgt und mir den Takt am Oszilloskop angeschaut.
+
+Da der Takt schwankt, habe ich bei Zimmertemperatur (20°C) einen Screenshot bei der minimalen und maximalen Frequenz gemacht:
+
+### Minimale Frequenz (20°C):
+![20°C_Low.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/20%C2%B0C_Low.PNG)
+
+### Maximale Frequenz (20°C):
+![20°C_High.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/20%C2%B0C_High.PNG)
+
+### Durchschnittliche Frequenz bei Einsatz von Kältespray (bis -50°C)
+![-50%C2%B0C.PNG](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/-50%C2%B0C.PNG)
+
+### Durchschnittliche Frequenz bei Einsatz eines Fön (ca. 3 Minuten volle Stufe)
+![%2B50%C2%B0C.PNG](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/%2B50%C2%B0C.PNG)
+
+### Fazit Frequenzmessung
+
+Die Messungen zeigen, dass bei dem einen von mir getesteten ATMEGA328P-MU die Abweichung von 8MHz nach oben bis zu 1,3% und nach unten bis zu -0,75% beträgt (jeweils bei 3V gemessen).
+
+Je nach Anwendung kann man sich mit diesen Angaben überlegen, ob man einen externen Takt (Keramik Resonator) benötigt.
+
 # Schaltung
 
 Wer sich für die Schaltung des Ardunio-Pro-Mini-RF interessiert, kann sich diese [hier](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/Arduino-Pro-Mini-RF.pdf) anschauen.
