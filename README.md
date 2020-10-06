@@ -209,7 +209,7 @@ Als kleine Übersicht habe ich auch noch eine [Pinbelegung](https://github.com/A
 
 # Lizenz
 
-![CC.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/CC.png)
+![by-nc-sa.eu.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/by-nc-sa.eu.png)
 
 ### Gibt es ein Diskussionsforum in dem man sich darüber austauschen kann?
 
