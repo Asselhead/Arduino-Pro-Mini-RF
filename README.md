@@ -50,13 +50,14 @@ ersetzt. Dieser hat ein sehr geringes IQ (2µA), eine Eingangsspannung bis 16V, 
 2.	Status LED (an D4)
 3.	Config Button (an D8)
 4.	Reset Baustein (Open Drain) als Babbling Idiot Protection (derzeit 2,32V – als Bestückungsoption)
-5.	SHT31 Temp./Humi Sensor – Achtung! Auf der BOT Seite - nur als Option für versierte Selbstlöter.
+5.	Batterie Last Schaltung (3 Widerstände, 1 FET) für bessere Babbling Idiot Protection. (Bestückungsoption auf BOT Seite)
 
 ### Ist er kompatibel?
 
 Die Belegung der beiden Stiftleisten links und rechts ist identisch zum Arduino Pro Mini Standard, ebenso die Position von A4(SDA) und A5(SCL) für den I2C Bus Anschluss.
 
 Die A/D-Wandler Eingänge A6 und A7 mussten leider entfallen, da der Platz nicht ausgereicht hat.
+A6 dient nun einzig der Spannungsauswertung bei Batterie unter Last.
 
 Die Leiterplatte hat genau wie das Original die Abmessungen 17,78 x 33,02mm (bzw. 0,7“x1,3“).
 
