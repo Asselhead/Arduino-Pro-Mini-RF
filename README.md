@@ -200,7 +200,7 @@ Je nach Anwendung kann man sich mit diesen Angaben überlegen, ob man einen exte
 
 # Schaltung
 
-Wer sich für die Schaltung des Ardunio-Pro-Mini-RF interessiert, kann sich diese [hier](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/Arduino-Pro-Mini-RF.pdf) anschauen.
+Wer sich für die Schaltung des Ardunio-Pro-Mini-RF interessiert, kann sich diese [hier](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/Arduino-Pro-Mini_V1.0.pdf) anschauen.
 
 # Pinbelegung
 
