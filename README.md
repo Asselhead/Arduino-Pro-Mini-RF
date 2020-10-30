@@ -22,7 +22,7 @@ Sobald man aber in Deutschland kauft, ist eine "All-in-One" Leiterplatte durchau
 
 #### Was ist daraus geworden? Der Arduino-Pro-Mini-RF!
 
-![Full_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Full_Assy_Iso.jpg)
+![TOP_ISO.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/TOP_ISO.png)
 
 Alle bisherigen ASKSINN++ Leiterplatten die den Arduino Pro Mini verwenden, könnten auch mit der RF Version weiter betrieben werden, benötigen aber kein zusätzliches CC1101 Modul.
 Zukünftige "Baseboards" könnten kleiner ausfallen, da der Platz für das CC1101 Modul entfällt.
@@ -81,22 +81,21 @@ Wenn sich hier herausstellt, dass die Mehrheit die Version mit bestücktem Spann
 
 Dieser Screenshot zeigt, was alles automatisch bestückt werden kann:
 
-![Part_Assy_Iso.jpg](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/Part_Assy.jpg)
+![TOP_SINGLE_JLC.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/TOP_SINGLE_JLC.png)
 
 ## What you don´t get!
 
 Es fehlen:
 
-- LDO-Spannungsregler mit Eingangskondensator
 - Reset Baustein
 - Keramik Resonator und 
 - Taster
 
-Den Config Taster zu haben ist schon sehr komfortabel, er lässt sich auch recht leicht von Hand bestücken. Auch der Keramik Resonator könnte für Präzisions-Zwecke von dem ein oder anderen benötigt werden. Dessen Lötpads sind etwas größer ausgeführt, damit er leichter verlötet werden kann.
+Den Config Taster zu haben ist schon sehr komfortabel, er lässt sich auch recht leicht von Hand bestücken. Auch der Keramik Resonator könnte für Präzisions-Zwecke von dem ein oder anderen benötigt werden. Dessen Lötpads sind etwas größer ausgeführt, damit er leichter von Hand verlötet werden kann.
 
 Der Reset Baustein (IC4) ist eine Option mit der ggf. ein Babbling Idiot verhindert werden kann.
 
-Wird die Schaltung nicht mit 3V an Batterien betrieben, sondern an einer höheren Spannung (bis ca. 14,5V), dann muss der LDO Spannungsregler (IC2) und dessen Eingangskondensator (C15 - 10µF/16V/0603) bestückt werden.
+Wird die Schaltung nicht mit 3V an Batterien betrieben, sondern an einer höheren Spannung (bis ca. 14,5V), dann muss der LDO Spannungsregler (IC2) bestückt werden.
 
 ## Funktioniert das überhaupt?
 
