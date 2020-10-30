@@ -202,6 +202,34 @@ Je nach Anwendung kann man sich mit diesen Angaben überlegen, ob man einen exte
 
 Wer sich für die Schaltung des Ardunio-Pro-Mini-RF interessiert, kann sich diese [hier](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/Arduino-Pro-Mini_V1.0.pdf) anschauen.
 
+# Bestückungszeichnung
+
+[Assembly](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/Assembly_APM-RF.pdf)
+
+# Bestelldaten für die Bestellung bei JLCPCB
+
+Für die Bestellung von Bestückten APM-RF Leiterplatten habe ich die Leiterplatte anstelle von 17,78mm auf 20mm verbreitert, damit JLCPCB sie als Einzelleiterplatte fertigen kann. Man muss also im Hinterkopf behalten, dass die Leiterplatte auf jeder Seite 1,11mm breiter ist, als ein original Arduino Pro Mini.
+Die hier hinterlegte ZIP Datei enthält eine weitere ZIP Datei mit den Gerberdaten, eine Excel Datei mit der BOM Liste und eine Excel Datei mit den Pick&Place Daten.
+
+In der BOM & Pick&Place Liste ist auch der 3,3V LDO enthalten. Wer den nicht mit bestücken lassen möchte, muss ihn aus der BOM Liste entfernen oder im entsprechenden Bestellschritt bei JLCPCB abwählen.
+
+Nicht enthalten sind der Reset Baustein, der 8MHz Keramik Resonator und der Taster - sowie alle Bauteile auf der BOT Seite. Die Bauteile hat JLCPCB nicht.
+
+**Achtung!** Die Daten habe ich nach bestem Wissen erstellt, jedoch mit diesen Daten noch nicht bei JLCPCB bestellt. Jeder sollte im Bestellvorgang peinlichst genau prüfen, ob alle Informationen so stimmen, wie man es sich vorstellt. Insbesondere sollte man die Polarität bzw. Positionierung der Bauteile im Bestellprozess überprüfen.
+Ich kann und werde hier keinen Support leisten und keine Garantie abgeben! Jeder der mit diesen Daten Leiterplatten bestellt, sollte wissen, was er tut.
+
+Anhand eines Beispiels (8-Fach Nutzen/Panel) habe ich eine Bestellanleitung für Bestückte Leiterplatten bei JLCPCB gemacht, an der man sich orientieren kann.
+
+**Ich weise noch einmal ausdrücklich darauf hin, dass man in jedem Fall kontrollieren muss, ob alle benötigten Bauteile bei JLCPCB in ausreichender Stückzahl auf Lager sind. JLCPCB schickt ansonsten die Leiterplatten ohne vorherige Rücksprache mit fehlenden Bauteilen an den Kunden raus.**
+
+## Bestelldaten
+
+[JLCPCB Order Data](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Order-Data/Single_APM-RF_JLCPCB_Order_Data.zip)
+
+## Bestellanleitung
+
+Die Bestellanleitung findet ihr [hier](https://github.com/Asselhead/Bestellanleitung-JLCPCB-SMT-Service)
+
 # Pinbelegung
 
 Als kleine Übersicht habe ich auch noch eine [Pinbelegung](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/APM_RF_PinOut.pdf) erstellt.
