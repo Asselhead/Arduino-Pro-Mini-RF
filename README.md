@@ -225,6 +225,9 @@ Anhand eines Beispiels (8-Fach Nutzen/Panel) habe ich eine Bestellanleitung für
 
 [JLCPCB Order Data](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Order-Data/Single_APM-RF_JLCPCB_Order_Data.zip)
 
+Wer Spaß mit den Bestückten Leiterplatten hat, darf mir gerne nen Kaffee spendieren:
+![KoFi.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/KoFi.png) [KoFi](https://ko-fi.com/asselhead)
+
 ## Bestellanleitung
 
 Die Bestellanleitung findet ihr [hier](https://github.com/Asselhead/Bestellanleitung-JLCPCB-SMT-Service)
