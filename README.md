@@ -235,6 +235,8 @@ Wer Spaß mit den Bestückten Leiterplatten hat, darf mir gerne nen Kaffee spend
 
 Die Bestellanleitung findet ihr [hier](https://github.com/Asselhead/Bestellanleitung-JLCPCB-SMT-Service)
 
+Die Bestellanleitung ist für ein 8-fach Panel geschrieben. Bitte an den entsprechenden Stellen beachten!
+
 # Pinbelegung
 
 Als kleine Übersicht habe ich auch noch eine [Pinbelegung](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/APM_RF_PinOut.pdf) erstellt.
