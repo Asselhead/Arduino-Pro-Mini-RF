@@ -221,6 +221,11 @@ Anhand eines Beispiels (8-Fach Nutzen/Panel) habe ich eine Bestellanleitung für
 
 **Ich weise noch einmal ausdrücklich darauf hin, dass man in jedem Fall kontrollieren muss, ob alle benötigten Bauteile bei JLCPCB in ausreichender Stückzahl auf Lager sind. JLCPCB schickt ansonsten die Leiterplatten ohne vorherige Rücksprache mit fehlenden Bauteilen an den Kunden raus.**
 
+### Zur Info:
+
+In der [JLCPCB Parts Library](https://jlcpcb.com/parts) findet man zwei mal den ATMEGA328P-MU, einmal unter C783592 und einmal unter C38896.
+In meiner BOM ist der C38896. Wenn ich diesen gegen den C783592 austausche wird er in der Voransicht merkwürdig angezeigt. Daher habe ich den C38896 in meiner BOM belassen, auch wenn der C783592 aktuell (30.10.2020) verfügbar ist.
+
 ## Bestelldaten
 
 [JLCPCB Order Data](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Order-Data/Single_APM-RF_JLCPCB_Order_Data.zip)
