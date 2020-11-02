@@ -232,9 +232,8 @@ In meiner BOM ist der C38896. Wenn ich diesen gegen den C783592 austausche wird 
 
 Wer Spaß mit den Bestückten Leiterplatten hat, darf mir gerne nen Kaffee spendieren:
 
-![KoFi.png](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Images/KoFi.png)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L52JYN0)
 
-[KoFi](https://ko-fi.com/asselhead)
 
 ## Bestellanleitung
 
