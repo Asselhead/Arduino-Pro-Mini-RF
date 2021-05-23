@@ -241,6 +241,17 @@ Die Bestellanleitung findet ihr [hier](https://github.com/Asselhead/Bestellanlei
 
 Die Bestellanleitung ist für ein 8-fach Panel geschrieben. Bitte an den entsprechenden Stellen beachten!
 
+# Optionale Teile
+
+Bauteil | Wert | Kommentar
+--------| ---- | ---------------
+IC4     |      | Reset bei Unterspannung
+S1      | [KMR 231 G LFS](https://www.reichelt.de/smd-kurzhubtaster-4-2-x-2-8-mm-hoehe-1-9-mm-kmr-231-g-lfs-p148478.html) | Config-Taster
+R4      | 10R oder 20R, 805 | (Batteriemessung unter Last)[https://github.com/TomMajor/SmartHome/tree/master/HB-UNI-Sensor1#messung-der-batteriespannung]
+R6      | 33R oder 20R, 805 | Batteriemessung unter Last
+R7      | 4k7, 805 | Batteriemessung unter Last
+DT1     | Si2302ADS / [IRLML6344](https://www.reichelt.de/mosfet-n-ch-30v-5a-1-3w-sot-23-irlml-6344-p132147.html) | Batteriemessung unter Last
+
 # Pinbelegung
 
 Als kleine Übersicht habe ich auch noch eine [Pinbelegung](https://github.com/Asselhead/Arduino-Pro-Mini-RF/blob/master/Docs/APM_RF_PinOut.pdf) erstellt.
